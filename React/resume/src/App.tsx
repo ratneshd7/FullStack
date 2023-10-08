@@ -1,12 +1,14 @@
+import * as React from 'react';
 import './App.css';
-import reportWebVitals
-  from './reportWebVitals';
+
+import Button from '@mui/material/Button';
+
 function App() {
-  reportWebVitals(console.log("Ratnnesh"))
   return (
     <div className="App">
       <header className="App-header">
-
+        Welcome to rect
+        <Button variant="contained">Hello world</Button>
       </header>
     </div>
   );

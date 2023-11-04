@@ -1,5 +1,6 @@
 ﻿// See https://aka.ms/new-console-template for more information
 
+System.Console.WriteLine("---Count the Duplicate char---");
 System.Console.WriteLine("Enter  String Value");
 var testString = Console.ReadLine();
 if (string.IsNullOrEmpty(testString))

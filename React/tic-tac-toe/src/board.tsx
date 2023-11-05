@@ -2,10 +2,7 @@ import React, { useState } from "react";
 import Stack from "@mui/material/Stack";
 import Square from "./square.tsx";
 
-const Board = () => {
-  const [squares, setSquares] = useState(Array(9).fill(null));
-  const [isXNext, setIsXNext] = useState(true);
-
+const Board = ({ isXNext, squares, onPlay }) => {
   const calculateWinner = (squares) => {
     const lines = [
       [0, 1, 2],
@@ -51,8 +48,7 @@ const Board = () => {
       nextSquares[i] = "O";
     }
 
-    setIsXNext(!isXNext);
-    setSquares(nextSquares);
+    onPlay(nextSquares);
   };
 
   return (

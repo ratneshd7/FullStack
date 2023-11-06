@@ -1,3 +1,4 @@
+import React from "react";
 const PRODUCT_LIST = [
   { category: "Fruits", price: "$1", stocked: true, name: "Apple" },
   { category: "Fruits", price: "$1", stocked: true, name: "Dragonfruit" },
@@ -6,3 +7,5 @@ const PRODUCT_LIST = [
   { category: "Vegetables", price: "$4", stocked: false, name: "Pumpkin" },
   { category: "Vegetables", price: "$1", stocked: true, name: "Peas" },
 ];
+
+export default PRODUCT_LIST;

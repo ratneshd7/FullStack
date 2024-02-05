@@ -17,7 +17,7 @@
 ## Competative Programming
 ## Docker
 *  docker ps [options]
-*  # optons are
+*  # options are
 *  -a, --all: Show all containers, including those that are stopped.
 *  -q, --quiet: Only display container IDs. 
 *  --no-trunc: Display the full command in the output.

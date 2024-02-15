@@ -1,4 +1,5 @@
 {
     "editor.formatOnPaste": false,
-    "editor.formatOnType": true
+    "editor.formatOnType": true,
+    "omnisharp.enableMsBuildLoadProjectsOnDemand": true
 }

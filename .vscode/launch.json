@@ -9,9 +9,9 @@
             "type": "coreclr",
             "request": "launch",
             "preLaunchTask": "build",
-            "program": "${workspaceFolder}/C#/TOH/bin/Debug/net7.0/TOH.dll",
+            "program": "${workspaceFolder}/CP/TwoSum/bin/Debug/net7.0/TwoSum.dll",
             "args": [],
-            "cwd": "${workspaceFolder}/C#/TOH",
+            "cwd": "${workspaceFolder}/CP/TwoSum",
             "console": "internalConsole",
             "stopAtEntry": false
         },

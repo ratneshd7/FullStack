@@ -11,7 +11,8 @@
 ## .net
 ### create new .net console app
 * first create a folder with Project name and run this command inside that folder path
-`dotnet new console --framework net7.0`
+`dotnet new console --framework net7.0 --use-program-main`
+* withhout  creating folder, cmd automaticcally create project folder `dotnet new console -o 'ocpviolation'  --use-program-main`
 * to run the app `dotnet run `
 * for command help run `dotnet new console -h `
 * ## to add sln file to console

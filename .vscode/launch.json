@@ -9,6 +9,19 @@
             "type": "coreclr",
             "request": "launch",
             "preLaunchTask": "build",
+            "program": "${workspaceFolder}/oops/SOLID/SRPVoilationn/bin/Debug/net7.0/SRPVoilationn.dll",
+            "args": [],
+            "cwd": "${workspaceFolder}/oops/SOLID/SRPVoilationn",
+            "stopAtEntry": false,
+            "console": "internalConsole"
+        },
+        
+    
+        {
+            "name": ".NET Core Launch (console)",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build",
             "program": "${workspaceFolder}/CP/TwoSum/bin/Debug/net7.0/TwoSum.dll",
             "args": [],
             "cwd": "${workspaceFolder}/CP/TwoSum",

@@ -14,6 +14,12 @@
 `dotnet new console --framework net7.0`
 * to run the app `dotnet run `
 * for command help run `dotnet new console -h `
+* ## to add sln file to console
+* First goto root folder and roun `dotnet new sln` which crate sln file
+* then add project into sln by `dotnet sln add <project_path>` eg `dotnet sln add SRPViolation`
+* ## to  create  webapi
+* use `dotnet new webapi`
+
 ## Competative Programming
 ## Docker
 *  docker ps [options]

@@ -7,6 +7,9 @@ namespace MyProject.MyNamespace
 {
     public class NewClass
     {
-        
+        public NewClass()
+        {
+            System.Console.WriteLine("Ratnesh New projecct");
+        }
     }
 }
